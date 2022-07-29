@@ -3,13 +3,15 @@ import Recipe from './Recipe';
 
 export default function RecipeList({ recipes }) {
   return (
-    <>
+    <div className="recipe-list">
       <div>
         {recipes.map((recipe) => (
           <Recipe key={recipe.id} {...recipe}></Recipe>
         ))}
       </div>
-      <button>Add Recipe</button>
-    </>
+      <div className="recipe-list__add-recipe-btn-container">
+        <button className="btn btn--primary">Add Recipe</button>
+      </div>
+    </div>
   );
 }
