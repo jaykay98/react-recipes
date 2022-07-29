@@ -1,5 +1,5 @@
 # react-recipes
-A React application that shows a list of Recipes and their ingredients with Edit and Delete.
+A React application that displays a list of Recipes and their ingredients.
 
 ## Install dependencies
 npm install
